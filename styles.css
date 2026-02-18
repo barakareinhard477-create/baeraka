@@ -1,11 +1,12 @@
 body {
+
     
     
     font-family: 'Poppins', sans-serif;
     background-color: #171415;
     color: #ea0aba;
     background-color: #f9fafb;
-    color: #060b15;
+    color: #13b111;
 
     background-color: #f8fafc;
     color: #143a91;
@@ -13,6 +14,7 @@ body {
 
 }
 p {
+    
     line-height: 1.7;
     font-size: 15px;
 }
@@ -35,6 +37,15 @@ h2::after {
     border-radius: 2px;
 
 }
+.Email:hover {
+     transform: translateY(-4px);
+    transition: 0.3s ease;
+    cursor: pointer;
+    background-color: #95ade2;
+
+
+}
+
 
 h2, h3 {
     color: #2563eb;
@@ -65,5 +76,6 @@ section:hover {
     transform: translateY(-4px);
     transition: 0.3s ease;
 }
+
 
 
